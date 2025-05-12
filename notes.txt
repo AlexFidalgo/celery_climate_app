@@ -1,0 +1,9 @@
+docker run -d -p 6379:6379 redis
+mkdir celery_climate_app
+cd celery_climate_app
+python -m venv celery_climate_venv
+source celery_climate_venv/bin/activate
+
+celery -A app worker --loglevel=info
+
+\celery_climate_app>>>>>> python -m app.main
