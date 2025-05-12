@@ -1,6 +1,3 @@
-### 📄 `README.md`
-
-````markdown
 # 🌦️ Celery Climate App
 
 This is a simple asynchronous Python application that uses **Celery** and **Redis** to fetch real-time weather data (temperature and humidity) from the [Open-Meteo API](https://open-meteo.com/). It demonstrates parallel task execution and how to coordinate results using Celery workers.
@@ -116,9 +113,3 @@ Waiting for remaining result...
 * Tasks are assigned to specific **queues** for true parallelism.
 * You can experiment with `time.sleep()` in `climate_api.py` to simulate network delay.
 * Try using different coordinates for different cities.
-
----
-
-## 📃 License
-
-MIT License – feel free to use, modify, and learn from it.
