@@ -1,2 +1,3 @@
 /__pycache__
 /celery_climate_venv
+/app/__pycache__
